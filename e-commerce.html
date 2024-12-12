@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NICHE</title>
+    <style>
+        body{
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+             Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        header{
+            background-color: rgba(7, 56, 7, 0.863);
+            color: aliceblue;
+            display: flex;
+            flex-direction: row;
+        }
+        header p{
+            margin-right: 200px;
+            margin: 10px;
+            font-weight: 20px;
+        }
+        header a{
+            margin: 10px;
+            margin-left: 100px;
+            text-decoration: none;
+            color: aliceblue;
+            float: right;
+        }
+        header a:hover{
+            color: rgb(84, 120, 151);
+        }
+        li{
+            text-decoration: none;
+            display: flex;
+            flex-direction: row;
+        }
+        .in{
+            width: 600px;
+            align-self: center;
+            margin-left: 400px;
+        }
+        .card img{
+            width: 400px;
+            height: 280px;
+            opacity: 0.7;
+            transition: 1s;
+        }
+        .card img:hover{
+            opacity: 1;
+            width: 410px;
+        }
+        .card{
+            border: 5px;
+            border-color: rgb(0, 0, 0);
+            width: 420px;
+            height: 380px;
+            padding: 20px;
+            box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.301);
+            margin-bottom: 30px;
+            transition: 1s;
+            margin-left: 30px;
+        }
+        .card:hover{
+            width: 450px;
+            height: 360px;
+            background-color: rgba(128, 128, 128, 0.192);
+        }
+        .card p{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: -5px;
+        }
+        .all{
+            display: flex;
+            flex-direction: row;
+            gap: 100px;
+        }
+        .alli{
+            display: flex;
+            flex-direction: row;
+            gap: 200px;
+        }
+        button{
+            margin-left: 160px;
+        }
+        footer{
+            background-color: rgb(50, 88, 46);
+            gap: 40px;
+            padding: 20px;
+        }
+        footer b{
+            margin-left: 120px;
+        }
+        .home{
+            margin-bottom: 0px;
+            background-color: aliceblue;
+            color: green;
+            padding: 10px;
+            padding-left: 12px;
+        }
+        .inf{
+            font-size: 20px;
+        }
+        .info{
+            font-size: 30px;
+        }
+        .feedback{
+            margin: 10px;
+        }
+        .feedback img{
+          border-radius: 50%;
+          width: 180px;
+          height: 150px;
+        }
+        .feedback b{
+          font-size: 30px;
+          text-align: center;
+        }
+        .feedback p{
+            font-size: 20px;
+        }
+        .kool{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+        .kool p{
+            padding-top: 20px;
+        }
+        input{
+            width: 500px;
+            height: 40px;
+            border-radius: 5px;
+            background-color: beige;
+            margin-top: 20px;
+        }
+        input::placeholder{
+           font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p><b>NICHE</b><i>company</i></p>
+            <a href="#" class="home">HOME</a>
+            <a href="product.html">PRODUCT</a>
+            <a href="about.html">ABOUT US</a>
+    </header>
+    <div>
+        <center><input type="search" placeholder="search"></center>
+    </div>
+    <div class="in">
+        <p class="info"><b><i>Info</i></b></p>
+        <hr>
+        <p class="inf">We're E-commerce company which sell a product depend on Face-care,Body-care,
+            Hair-care,Baby-care.we begin in 2015 and we're organic skin care that owned by <b>NICHE</b></p>
+    </div>
+    <div class="all">
+    <div class="card">
+        <img src="babycare.webp" alt="Baby-care"><hr>
+        <p>TENDER CARE it's made for <b>BABY</b></p>
+        <button type="submit"><a href="tender.html">More Info</a></button>
+    </div><br>
+    <div class="card">
+        <img src="haircare.jpg" alt="Hair-care"><hr>
+        <p>REDKEN Care it's made for <b>HAIR</b></p>
+        <button type="submit"><a href="redken.html">More Info</a></button>
+    </div></div><div class="alli">
+    <div class="card">
+        <img src="facecare.jpeg" alt="Face-care"><hr>
+        <p>CROMOaroma it's made for <b>FACE</b></p>
+        <button type="submit"><a href="product.html">More Info</a></button>
+    </div>
+    <div class="card">
+        <img src="body care.jpg" alt="Body-care"><hr>
+        <p>CAUDALIE it's made for <b>BODY</b></p>
+        <button type="submit"><a href="product.html">More Info</a></button>
+    </div></div>
+    <div class="feedback">
+        <p><b><i>FeedBack</i></b></p><hr>
+        <div class="kool"><img src="feedback.jpeg" alt="">
+        <p><i> "I'am Kate my face was too Bad before use CROMOaroma But after use that product my face <br> is too
+            Skinny So I can rate it <b>5 STAR</b>"</i>
+        </p></div>
+    </div>
+    <footer>
+        <b>Contact us:</b>+250783400900
+        <b>Facebook:</b>Niche
+        <b>Instagram:</b>Niche_Original
+        <b>E-MAIL:</b>Nicheoriginal@gmail.com
+    </footer>
+</body>
+</html>
